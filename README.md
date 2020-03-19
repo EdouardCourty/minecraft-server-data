@@ -3,10 +3,10 @@ Get the status data of a Minecraft server by providing it's IP address.
 
 ## Installation
 
-[![NPM](https://nodei.co/npm/minecraft-status.png)](https://nodei.co/npm/minecraft-status/)
+[![NPM](https://nodei.co/npm/minecraft-server-status.png)](https://nodei.co/npm/minecraft-server-status/)
 
 ```
-npm install minecraft-status
+npm install minecraft-server-status
 ```
 
 ### Usage
@@ -16,7 +16,7 @@ You can provide a port as well if needed. The default one is 25565.
 
 Here is a quick example of how to make a call
 ```javascript
-const minecraftStatus = require("minecraft-status");
+const minecraftStatus = require("minecraft-server-status");
 
 // Not providing a port
 minecraftStatus("<YourServerIP>")

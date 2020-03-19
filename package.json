@@ -1,5 +1,5 @@
 {
-  "name": "minecraft-status",
+  "name": "minecraft-server-status",
   "version": "1.0.5",
   "description": "A simple MCApi wrapper written in JavaScript.",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "author": "Edouard Courty",
   "license": "MIT",
   "dependencies": {},
-  "homepage": "https://github.com/EdouardCourty/minecraft-status#readme",
+  "homepage": "https://github.com/EdouardCourty/minecraft-server-status#readme",
   "keywords": [
     "api",
     "minecraft",
