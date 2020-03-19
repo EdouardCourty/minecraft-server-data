@@ -14,7 +14,13 @@ Here is a quick example of how to make a call
 ```javascript
 const minecraftStatus = require("minecraft-status");
 
+// Not providing a port
 minecraftStatus("<YourServerIP>")
+  .then(console.log)
+  .catch(console.error);
+
+// Providing a port
+minecraftStatus("<YourServerIP>", 43778)
   .then(console.log)
   .catch(console.error);
 ```
