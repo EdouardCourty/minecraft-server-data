@@ -1,4 +1,4 @@
-# Minecraft Status
+# Minecraft Server Status
 Get the status data of a Minecraft server by providing it's IP address.
 
 ## Installation
@@ -16,15 +16,15 @@ You can provide a port as well if needed. The default one is 25565.
 
 Here is a quick example of how to make a call
 ```javascript
-const minecraftStatus = require("minecraft-server-status");
+const getStatus = require("minecraft-server-status");
 
 // Not providing a port
-minecraftStatus("<YourServerIP>")
+getStatus("<YourServerIP>")
   .then(console.log)
   .catch(console.error);
 
 // Providing a port
-minecraftStatus("<YourServerIP>", 43778)
+getStatus("<YourServerIP>", 43778)
   .then(console.log)
   .catch(console.error);
 ```
@@ -49,3 +49,5 @@ The output data will look like the following:
 }
 ```
 The queryDuration is output in millisecond.
+
+© 2020 - Edouard Courty  
