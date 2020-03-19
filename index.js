@@ -54,8 +54,11 @@ request = (url) => {
         res.on("data", d => {
           resolve(JSON.parse(d.toString()))
         })
-      }).on("error", reject).end()
+      }).on("error", e => {
+        reject(`An error occured: ${e}`)
+    }).end()
   })
 };
 
 // I want to thank Syfaro for letting his MCApi free and easy-to-use.
+// © 2020 Edouard Courty - MIT License

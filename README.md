@@ -1,11 +1,15 @@
 # Minecraft Status
+Get the status data of a Minecraft server by providing it's IP address.
 
-### Install the package
+## Installation
 
-Require the package using the following command.  
-`npm install minecraft-status`
+[![NPM](https://nodei.co/npm/minecraft-status.png)](https://nodei.co/npm/minecraft-status/)
 
-### Requesting the API
+```
+npm install minecraft-status
+```
+
+### Usage
 
 The only and mandatory parameter for this function to be executed is a server IP.  
 You can provide a port as well if needed. The default one is 25565.
@@ -25,7 +29,7 @@ minecraftStatus("<YourServerIP>", 43778)
   .catch(console.error);
 ```
 
-### Data Structure
+## Data Structure
 The output data will look like the following:
 ```json
 {
