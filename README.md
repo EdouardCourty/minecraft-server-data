@@ -36,7 +36,7 @@ The output data will look like the following:
         "now": 0
     },
     "server": {
-        "name": "<TheServersMinecraftVersion>",
+        "version": "<TheServersMinecraftVersion>",
         "protocol": 340
     },
     "last_online": "LastSeenOnlineTimestamp",

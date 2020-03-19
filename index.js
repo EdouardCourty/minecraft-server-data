@@ -34,6 +34,8 @@ handleResolve = (data, resolve, reject) => {
   delete data.status;
   delete data.error;
   data.queryDuration = data.duration * 0.000001; // Getting milliseconds from nanoseconds
+  data.server.version = data.server.name;
+  delete data.server.name;
   delete data.duration;
   resolve(data)
 };
