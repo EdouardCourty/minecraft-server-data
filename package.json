@@ -1,11 +1,16 @@
 {
   "name": "minecraft-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple MCApi wrapper written in JavaScript.",
   "main": "index.js",
   "scripts": {},
   "author": "Edouard Courty",
   "license": "MIT",
   "dependencies": {},
-  "keywords": ["api", "minecraft", "minecraft api", "mcapi"]
+  "keywords": [
+    "api",
+    "minecraft",
+    "minecraft api",
+    "mcapi"
+  ]
 }
