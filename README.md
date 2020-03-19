@@ -35,7 +35,7 @@ The output data will look like the following:
     },
     "last_online": "LastSeenOnlineTimestamp",
     "last_updated": "LastUpdatedTimestamp",
-    "quryDuration": 1652375613
+    "queryDuration": 435
 }
 ```
 The queryDuration is output in millisecond.
